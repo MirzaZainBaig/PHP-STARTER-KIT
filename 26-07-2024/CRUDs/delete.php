@@ -4,7 +4,7 @@
         $conn =  mysqli_connect('localhost', 'root', '', 'crud') or die('connection failed!');
         $query = "DELETE FROM student WHERE sid = {$student_id}";
         $result = mysqli_query($conn, $query) or die('querry unsuccessful');
-        header('location: http://localhost/php-prac/26-07-2024/CRUDs/index.php');
+        header('location: http://localhost/PHP-Starter-Kit/26-07-2024/CRUDs/index.php');
         mysqli_close($conn);
     }
 ?>

@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $db = new Database();
     $db->insertStudent($student_name, $student_address, $student_class, $student_phone);
 
-    header('Location: http://localhost/php-prac/26-07-2024/CRUDs/index.php');
+    header('Location: http://localhost/PHP-Starter-Kit/26-07-2024/CRUDs/index.php');
     exit;
 }
 ?>

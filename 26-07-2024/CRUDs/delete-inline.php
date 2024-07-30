@@ -44,7 +44,7 @@ if (isset($_GET['id'])) {
     $db = new Database();
     $db->deleteStudent($student_id);
     $db->close();
-    header('Location: http://localhost/php-prac/26-07-2024/CRUDs/index.php');
+    header('Location: http://localhost/PHP-Starter-Kit/26-07-2024/CRUDs/index.php');
     exit;
 }
 ?>
